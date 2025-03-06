@@ -176,7 +176,8 @@ ggplot(data = buoy_final,
   scale_color_viridis_d() +
   labs(x = "Month in 2024",
        y = "Air Temperature (Celsius)",
-       caption = "Source: NOAA National Buoy Center") +
+       caption = "Source: NOAA National Buoy Center",
+       title = "Monterey Bay Canyon Air Temperature in 2024") +
   theme_light() +
   theme(legend.position = "none")
 ```
@@ -194,8 +195,10 @@ One fun source for data is [Tidy Tuesday](https://github.com/rfordatascience/tid
 
 **For your found data write a brief description of the data and and provide its source.**
 
->Insert your description and link to your source here. Identify 2-3 research questions you could try to answer with this data.  
+>Corporate Pride Accountability from TinyTuesday: https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-06-07
+The dataset contains information about corporations that make donations to LGBTQ Pride parades or organizations to appear progressive, but also donate to anti-LGBTQ politicians. Contains the "political giving of specific Fortune 500 companies to anti-LGBTQ+ politicians in six states." 
 
+> Questions: 1. Which corporations have donated the most money to anti-LGBTQ politicians? What is the geographical spread of their donations? 2. What is the typical ratio of money given to Pride organizations versus anti-LGBTQ politicians? 3. Is there a correlation between the level of Pride event sponsorship and donations to anti-LGBTQ+ politicians? 4. How have the donations changed over time? 5. Which anti-LGBTQ politicians receive the most corporate funding? 
 
 
 
